@@ -6,9 +6,9 @@ Area: Image Processing
 
 Term Project, Machine Learning (CS60050), Autumn 2016-2017, IIT Kharagpur
 
-Project Title: "Image Deblurring using Convolutional Neural Networks"
+Project Title: "Neural Network Architecture for Deblurring of Images"
 
-Project Description: We want to deblur an image using convolutional neural networks using. We design a Convolutional Neural Network to learn the degradation characteristics of an image. 
+Project Description: "Restoration of a degraded/blurred image using a convolutional neural network architecture which learns the degradation characteristics of an image."
 
 # Group Members
 
