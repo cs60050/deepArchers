@@ -12,12 +12,12 @@ reset(gpuDevice);
 % specify the mode
 mode = mode_1;
 
-orig = imread('D:/Acads/7th sem/Machine Learning/Project/dcnn_nips14/images/im63.jpg');
+orig = imread('D:/Acads/7th sem/Machine Learning/Project/deep_archers/images/im63.jpg');
 orig = imresize(orig,[600 800]);
 init_gpu(1);
 fprintf('loading weights...\n');
 if strcmp(mode, mode_1)    
-    imTest = im2double(imread('D:/Acads/7th sem/Machine Learning/Project/dcnn_nips14/images/blur_5.jpg'));
+    imTest = im2double(imread('D:/Acads/7th sem/Machine Learning/Project/deep_archers/images/blur_5.jpg'));
     load(strcat('weights/', kernel_str, '/w_noise'));
 else
     imTest = im2double(imread('images/sample_blur.jpg'));
